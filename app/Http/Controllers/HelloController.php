@@ -1,9 +1,11 @@
 <?php
+
 namespace App\Http\Controllers;
 
 class HelloController
 {
-    function index() {
+    public function index()
+    {
         return 'Hello';
     }
 }
